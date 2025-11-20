@@ -1,0 +1,107 @@
+
+
+/* Import fonts */
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&family=Sora:wght@300;400;500;600;700&display=swap');
+
+/* Headings use MARCELLUS */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Marcellus', serif;
+  color: #2c2c2c;
+  text-transform: capitalize;
+  line-height: 1.3;
+  margin-bottom: 1rem;
+  letter-spacing: 0.4px;
+}
+
+/* ---------- H1: Main Section Title ---------- */
+h1 {
+  font-size: clamp(2.3rem, 4vw, 3.2rem);
+  font-weight: 600;
+  color: #1a1a1a;
+  margin-top: 3rem;
+  margin-bottom: 1.5rem;
+  position: relative;
+}
+
+/* Golden underline */
+h1::after {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 3px;
+  background-color: #c89b3c;
+  margin: 0.6rem auto 0;
+  border-radius: 3px;
+  opacity: 0.9;
+  transition: width 0.4s ease;
+}
+
+h1:hover::after {
+  width: 120px;
+}
+
+/* ---------- H2 ---------- */
+h2 {
+  font-size: clamp(1.9rem, 3vw, 2.3rem);
+  font-weight: 500;
+  color: #2b2b2b;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+/* ---------- H3 ---------- */
+h3 {
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: #3d3d3d;
+  margin-top: 1.4rem;
+  margin-bottom: 0.75rem;
+}
+
+/* =======================================
+   🌸 BODY TEXT (SORA)
+   ======================================= */
+p {
+  font-family: 'Sora', sans-serif;
+  color: #444;
+  line-height: 1.85;
+  font-size: 1.06rem;
+  max-width: 850px;
+  margin: 1rem auto;
+  letter-spacing: 0.2px;
+  animation: fadeInText 0.8s ease both;
+}
+
+@keyframes fadeInText {
+  from { opacity: 0; transform: translateY(10px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* =======================================
+   🌼 LISTS
+   ======================================= */
+ul {
+  margin-left: 1.8rem;
+  color: #444;
+  line-height: 1.8;
+  list-style: circle;
+}
+
+li {
+  /* margin-bottom: 0.6rem; */
+  font-family: 'Sora', sans-serif;
+  font-size: 1.05rem;
+}
+
+/* =======================================
+   📱 RESPONSIVE
+   ======================================= */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+  }
+  p {
+    font-size: 0.98rem;
+    line-height: 1.7;
+  }
+}
