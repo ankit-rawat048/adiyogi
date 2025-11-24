@@ -13,6 +13,7 @@
 
   <!-- Swiper -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="https://adiyogigurukul.com/assets/favicon.png">
 
     <style>
         .banner-img {
@@ -27,6 +28,13 @@
             justify-content:center;
             align-items:center;
         }
+
+        .sec-style {
+            display:flex;
+            flex-direction:column;
+            justify-content:center;
+            align-items:center;
+        }
     </style>
 </head>
 
@@ -35,7 +43,7 @@
 
     <main>
 
-        <section class="banner-img">
+        <section class="sec-style banner-img">
             <h1 class="text-3xl md:text-5xl font-bold capitalize text-center">
                 Online Yoga Teacher Training Course
             </h1>
@@ -47,7 +55,7 @@
 
 
         <!-- ================= INTRO SECTION ================= -->
-        <section class="max-w-6xl mx-auto px-4 py-16">
+        <section class="sec-style max-w-6xl mx-auto px-4 py-16">
             <h1 class="text-3xl font-semibold">Online Yoga Teacher Training Courses</h1>
             <h2 class="text-xl md:text-2xl font-medium mt-3 text-gray-700">
                 Step Into the Future of Yoga — From the Comfort of Your Home
@@ -85,12 +93,12 @@
                 <li><strong>Connect with Yoga in Every Aspect:</strong> Deepen your connection with yoga and explore its transformative power on all levels.</li>
             </ul>
 
-            <div class="flex justify-between items-center bg-black text-white p-4 gap-4">
+            <div class="w-full my-8 flex justify-between items-center bg-black text-white p-4 gap-4">
     <img src="https://adiyogigurukul.com/assets/online-yoga-svg.webp" 
          alt="Online Yoga Icon" 
-         class="w-8 h-8">
+         class="w-[8rem] h-[8rem]">
 
-    <p class="leading-relaxed">
+    <p class="leading-relaxed text-white">
         Begin your transformation today! Enroll in our Online Yoga Teacher Training Course and
         take your first step toward becoming a certified yoga instructor. Access classes from
         anywhere in the world with guidance from expert teachers.
@@ -101,8 +109,8 @@
 
 
         <!-- ================= COURSE OVERVIEW ================= -->
-        <section class="bg-gray-50 py-16">
-            <div class="max-w-6xl mx-auto px-4">
+        <section class="sec-style bg-gray-50 py-16">
+            <div class="max-w-6xl mx-auto px-4 flex flex-col justify-center items-center">
 
                 <h1 class="text-3xl font-semibold capitalize">Online Yoga Teacher Training Course Overview</h1>
 
@@ -174,7 +182,7 @@
 
 
         <!-- ================= 100 HOUR COURSE ================= -->
-        <section class="max-w-6xl mx-auto px-4 py-16">
+        <section class="sec-style max-w-6xl mx-auto px-4 py-16">
             <h1 class="text-3xl font-semibold">100-Hour Online Yoga Teacher Training Course</h1>
 
             <p class="mt-4 leading-relaxed">
@@ -198,7 +206,7 @@
 
 
         <!-- ================= 200 HOUR COURSE ================= -->
-        <section class="max-w-6xl mx-auto px-4 py-16">
+        <section class="sec-style max-w-6xl mx-auto px-4 py-16">
             <h1 class="text-3xl font-semibold">200-Hour Online Yoga Teacher Training Course</h1>
 
             <p class="mt-4 leading-relaxed">
@@ -220,7 +228,7 @@
 
 
         <!-- TEACHERS SECTION -->
-        <section class="bg-gray-100 py-16">
+        <section class="sec-style bg-gray-100 py-16">
             <div class="max-w-6xl mx-auto px-4">
 
                 <h1 class="text-3xl font-semibold mb-10">Our Teachers</h1>

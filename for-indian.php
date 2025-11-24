@@ -4,10 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Special Offers for Indian Citizens - Adiyogi Gurukul</title>
-
-    <!-- TailwindCSS -->
+    <title>Adiyogi Gurukul | Special Offers for Indian Citizens - Adiyogi Gurukul</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="https://adiyogigurukul.com/assets/favicon.png">
 
     <style>
         .highlight {

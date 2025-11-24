@@ -3,15 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <!-- Tailwind CDN -->
-  <script src="https://cdn.tailwindcss.com"></script>
-
-  <!-- Custom CSS -->
-  <link rel="stylesheet" href="style.css" />
-
-  <!-- Swiper -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <title>Adiyogi Gurukul | Daily-drop-in</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="https://adiyogigurukul.com/assets/favicon.png">
 
   <style>
     .drop-img{
@@ -150,22 +146,8 @@
   </div>
 </section>
 
-<section class="py-16 bg-gray-50">
-  <div class="max-w-5xl mx-auto px-4">
-    <h2 class="text-3xl font-semibold mb-6">Student Feedback</h2>
-    <div class="space-y-8">
-      <blockquote class="border-l-4 border-indigo-600 pl-4 italic text-gray-700">
-        “Coming from a fast-paced life in New York, the peaceful atmosphere of Adiyogi Gurukul helped me reconnect...”  
-        <br><span class="font-semibold">— Michael Thompson</span>
-      </blockquote>
-      <blockquote class="border-l-4 border-indigo-600 pl-4 italic text-gray-700">
-        “A truly magical experience! From the food to the daily practices … inner growth.”  
-        <br><span class="font-semibold">— Sofia Lindström</span>
-      </blockquote>
-      <!-- More quotes -->
-    </div>
-  </div>
-</section>
+<!-- students feedbacks -->
+ <?php include('indexElements/section12.php'); ?>
 
 <section class="py-16 bg-white">
   <div class="max-w-5xl mx-auto px-4">
@@ -201,5 +183,7 @@
     </main>
 
     <?php include('components/footer.php'); ?>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
 </body>
 </html>

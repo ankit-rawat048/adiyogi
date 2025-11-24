@@ -5,6 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Yoga Retreat - Adiyogi Gurukul</title>
+    <link rel="shortcut icon" type="image/x-icon" href="https://adiyogigurukul.com/assets/favicon.png">
 
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
@@ -95,22 +96,22 @@
 
                     <ul class="mt-4 inline-block text-left">
                         <li class="flex items-center icon-li">
-                            <img src="https://www.svgrepo.com/show/533303/check.svg" alt="">A journey to bring balance into your life.
+                            <img src="https://www.svgrepo.com/show/510341/web-link.svg" alt="">A journey to bring balance into your life.
                         </li>
                         <li class="flex items-center icon-li">
-                            <img src="https://www.svgrepo.com/show/533303/check.svg" alt="">A place where deep relaxation happens.
+                            <img src="https://www.svgrepo.com/show/510341/web-link.svg" alt="">A place where deep relaxation happens.
                         </li>
                         <li class="flex items-center icon-li">
-                            <img src="https://www.svgrepo.com/show/533303/check.svg" alt="">A refuge to heal mind, body & spirit.
+                            <img src="https://www.svgrepo.com/show/510341/web-link.svg" alt="">A refuge to heal mind, body & spirit.
                         </li>
                         <li class="flex items-center icon-li">
-                            <img src="https://www.svgrepo.com/show/533303/check.svg" alt="">A moment to rebalance with nature.
+                            <img src="https://www.svgrepo.com/show/510341/web-link.svg" alt="">A moment to rebalance with nature.
                         </li>
                         <li class="flex items-center icon-li">
-                            <img src="https://www.svgrepo.com/show/533303/check.svg" alt="">An opportunity for inner connection.
+                            <img src="https://www.svgrepo.com/show/510341/web-link.svg" alt="">An opportunity for inner connection.
                         </li>
                         <li class="flex items-center icon-li">
-                            <img src="https://www.svgrepo.com/show/533303/check.svg" alt="">A movement toward self-awareness.
+                            <img src="https://www.svgrepo.com/show/510341/web-link.svg" alt="">A movement toward self-awareness.
                         </li>
                     </ul>
 
@@ -156,17 +157,17 @@
 
                     <h5 class="font-semibold mt-4">Retreat Overview</h5>
                     <ul>
-                        <li class="icon-li flex items-center"><img src="https://www.svgrepo.com/show/533303/check.svg"><b>Duration:</b> 03 Days</li>
-                        <li class="icon-li flex items-center"><img src="https://www.svgrepo.com/show/533303/check.svg"><b>Date:</b> Flexible</li>
-                        <li class="icon-li flex items-center"><img src="https://www.svgrepo.com/show/533303/check.svg"><b>Style:</b> Multi-style</li>
-                        <li class="icon-li flex items-center"><img src="https://www.svgrepo.com/show/533303/check.svg"><b>Location:</b> Adiyogi Gurukul, Tapovan</li>
-                        <li class="icon-li flex items-center"><img src="https://www.svgrepo.com/show/533303/check.svg"><b>Certification:</b> Participation</li>
+                        <li class="icon-li flex items-center"><img src="https://www.svgrepo.com/show/510341/web-link.svg"><b>Duration:</b> 03 Days</li>
+                        <li class="icon-li flex items-center"><img src="https://www.svgrepo.com/show/510341/web-link.svg"><b>Date:</b> Flexible</li>
+                        <li class="icon-li flex items-center"><img src="https://www.svgrepo.com/show/510341/web-link.svg"><b>Style:</b> Multi-style</li>
+                        <li class="icon-li flex items-center"><img src="https://www.svgrepo.com/show/510341/web-link.svg"><b>Location:</b> Adiyogi Gurukul, Tapovan</li>
+                        <li class="icon-li flex items-center"><img src="https://www.svgrepo.com/show/510341/web-link.svg"><b>Certification:</b> Participation</li>
                     </ul>
 
                     <h5 class="font-semibold mt-4">Course Fees</h5>
                     <ul>
-                        <li class="icon-li flex items-center"><img src="https://www.svgrepo.com/show/533303/check.svg"><b>Double Shared:</b> $199 USD</li>
-                        <li class="icon-li flex items-center"><img src="https://www.svgrepo.com/show/533303/check.svg"><b>Private Room:</b> $249 USD</li>
+                        <li class="icon-li flex items-center"><img src="https://www.svgrepo.com/show/510341/web-link.svg"><b>Double Shared:</b> $199 USD</li>
+                        <li class="icon-li flex items-center"><img src="https://www.svgrepo.com/show/510341/web-link.svg"><b>Private Room:</b> $249 USD</li>
                     </ul>
 
                     <a href="./registration.php"
@@ -177,8 +178,8 @@
 
                 <!-- Images -->
                 <div class="grid grid-cols-2 gap-4">
-                    <img src="images/new-images/retreat-1.webp" class="rounded-lg shadow">
-                    <img src="images/new-images/retreat-8.webp" class="rounded-lg shadow">
+                    <img src="https://sanskritiyogpeeth.org/assets/img/retreat/3-days-retreat-rishikesh_1.webp" class="rounded-lg shadow">
+                    <img src="https://sanskritiyogpeeth.org/assets/img/retreat/5-days-yoga-retreat-in-rishikesh.webp" class="rounded-lg shadow">
                 </div>
 
             </div>
