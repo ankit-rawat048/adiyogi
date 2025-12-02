@@ -105,7 +105,7 @@
     /* ===== BUTTON ===== */
     .hero-btn a {
         display: inline-block;
-        background-color: #f7b731;
+        background-color: #ff09aa;
         color: #000;
         font-weight: 600;
         padding: 0.9rem 2.2rem;
@@ -119,7 +119,7 @@
 
     .hero-btn a:hover {
         transform: scale(1.07);
-        background-color: #ffca3a;
+        background-color: #ff59c5ff;
         box-shadow: 0 6px 20px rgba(247, 183, 49, 0.5);
     }
 

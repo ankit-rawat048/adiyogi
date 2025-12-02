@@ -96,58 +96,60 @@
     <section>
       <h2 class="text-2xl font-semibold text-[#42606B] mb-6">Course Fees & Dates</h2>
 
-      <div class="overflow-x-auto">
-        <table class="w-full border border-gray-200 text-center rounded-lg overflow-hidden">
-          <thead class="bg-[#42606B] text-white">
-            <tr>
-              <th class="py-3 px-4">Date</th>
-              <th class="py-3 px-4">Private Room</th>
-              <th class="py-3 px-4">Double Sharing</th>
-              <th class="py-3 px-4">Triple Sharing</th>
-              <th class="py-3 px-4">Booking</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr class="border-b hover:bg-gray-50">
-              <td class="py-4">Aug 2025</td>
-              <td>$549</td>
-              <td>$439</td>
-              <td>$369</td>
-              <td>
-                <a href="registration.php"
-                   class="bg-[#42606B] text-white px-4 py-2 rounded-md hover:bg-[#35535D] transition">
-                  Enroll
-                </a>
-              </td>
-            </tr>
+      <div>
+        <table class="w-full border border-gray-200 text-center rounded-xl shadow-md">
+  <thead class="bg-[#42606B] text-white">
+    <tr>
+      <th class="py-4 px-6 text-sm md:text-base">Date</th>
+      <th class="py-4 px-6 text-sm md:text-base">Private Room</th>
+      <th class="py-4 px-6 text-sm md:text-base">Double Sharing</th>
+      <th class="py-4 px-6 text-sm md:text-base">Triple Sharing</th>
+      <th class="py-4 px-6 text-sm md:text-base">Booking</th>
+    </tr>
+  </thead>
 
-            <tr class="border-b hover:bg-gray-50">
-              <td class="py-4">Sep 2025</td>
-              <td>$549</td>
-              <td>$439</td>
-              <td>$369</td>
-              <td>
-                <a href="registration.php"
-                   class="bg-[#42606B] text-white px-4 py-2 rounded-md hover:bg-[#35535D] transition">
-                  Enroll
-                </a>
-              </td>
-            </tr>
+  <tbody class="text-gray-700">
+    <tr class="border-b hover:bg-gray-100 transition">
+      <td class="py-4 font-medium">Aug 2025</td>
+      <td class="py-4">$549</td>
+      <td class="py-4">$439</td>
+      <td class="py-4">$369</td>
+      <td class="py-4">
+        <a href="registration.php"
+           class="bg-[#42606B] text-white px-4 py-2 rounded-lg hover:bg-[#35535D] transition-all shadow-sm">
+          Enroll
+        </a>
+      </td>
+    </tr>
 
-            <tr class="hover:bg-gray-50">
-              <td class="py-4">Oct 2025</td>
-              <td>$549</td>
-              <td>$439</td>
-              <td>$369</td>
-              <td>
-                <a href="registration.php"
-                   class="bg-[#42606B] text-white px-4 py-2 rounded-md hover:bg-[#35535D] transition">
-                  Enroll
-                </a>
-              </td>
-            </tr>
-          </tbody>
-        </table>
+    <tr class="border-b hover:bg-gray-100 transition">
+      <td class="py-4 font-medium">Sep 2025</td>
+      <td class="py-4">$549</td>
+      <td class="py-4">$439</td>
+      <td class="py-4">$369</td>
+      <td class="py-4">
+        <a href="registration.php"
+           class="bg-[#42606B] text-white px-4 py-2 rounded-lg hover:bg-[#35535D] transition-all shadow-sm">
+          Enroll
+        </a>
+      </td>
+    </tr>
+
+    <tr class="hover:bg-gray-100 transition">
+      <td class="py-4 font-medium">Oct 2025</td>
+      <td class="py-4">$549</td>
+      <td class="py-4">$439</td>
+      <td class="py-4">$369</td>
+      <td class="py-4">
+        <a href="registration.php"
+           class="bg-[#42606B] text-white px-4 py-2 rounded-lg hover:bg-[#35535D] transition-all shadow-sm">
+          Enroll
+        </a>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
       </div>
     </section>
 

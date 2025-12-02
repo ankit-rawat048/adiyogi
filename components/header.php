@@ -72,8 +72,9 @@
         <div>
             <ul class="flex">
                 <li><a href="https://www.faqyoga.in/">FAQs</a></li>
+                <li><a href="registration.php">Registration</a></li>
                 <li>
-                    <button class="contact-btn"><a href="#">Contact Us</a></button>
+                    <button class="contact-btn"><a href="contactus.php">Contact Us</a></button>
                 </li>
             </ul>
         </div>
@@ -114,6 +115,7 @@
             <li><a href="daily-drop-in.php">Daily Drop-in</a></li>
 
             <li><a href="https://www.faqyoga.in/">FAQs</a></li>
+            <li><a href="ragistration.php">Register</a></li>
             <li><a class="contact-btn" href="#">Contact Us</a></li>
         </ul>
     </nav>

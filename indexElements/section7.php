@@ -156,7 +156,7 @@
 
 .course-info h3 {
   font-size: 1.35rem;
-  color: #c59a44;
+  color: #ff59c5ff;
   margin-bottom: 12px;
   font-weight: 600;
 }
@@ -172,7 +172,7 @@
 .btn-learn {
   display: inline-block;
   padding: 10px 26px;
-  background: #c59a44;
+  background-color: #ff09aa;
   color: #fff;
   border-radius: 25px;
   text-transform: uppercase;
@@ -182,7 +182,7 @@
 }
 
 .btn-learn:hover {
-  background: #a67f35;
+  background-color: #ff59c5ff;
   transform: translateY(-3px);
 }
 

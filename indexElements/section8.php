@@ -44,9 +44,9 @@
       </ul>
 
       <a href="./ayurveda-yoga-course.php"
-        class="inline-block mt-6 px-8 py-3 bg-[#c59a44] text-white rounded-full 
+        class="inline-block mt-6 px-8 py-3 bg-[#ff09aa] text-white rounded-full 
         text-sm uppercase tracking-wide font-semibold
-        hover:bg-[#a67f35] transition shadow-md hover:shadow-xl transform hover:-translate-y-1">
+        hover:bg-[#ff59c5ff] transition shadow-md hover:shadow-xl transform hover:-translate-y-1">
         Read More
       </a>
 
